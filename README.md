@@ -26,7 +26,8 @@ Create a new database and import the database.sql file provided in the repositor
 
 Update the db_connect_dy.php file with your database credentials.
 
-`$servername = "localhost";
+```
+$servername = "localhost";
 $username = "your_db_username";
 $password = "your_db_password";
 $dbname = "L11_Yusufzoda_58330_mid2_coffego";
@@ -36,7 +37,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-`
+```
 
 ### 4. Run the application:
 
