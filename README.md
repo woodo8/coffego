@@ -30,7 +30,7 @@ Update the db_connect_dy.php file with your database credentials.
 $servername = "localhost";
 $username = "your_db_username";
 $password = "your_db_password";
-$dbname = "L11_Yusufzoda_58330_mid2_coffego";
+$dbname = "db_name";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
